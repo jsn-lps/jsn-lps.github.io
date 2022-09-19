@@ -17,13 +17,6 @@
   text-align: center;
 }
 
-#page-wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 180vh;
-}
-
 #nav-bar {
   display: flex;
   position: fixed;
@@ -64,58 +57,84 @@
   text-decoration: none;
 }
 
-#page-banner {
+
+
+#page-wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 29.5vh;
-  background-color: var(--main-color);
-  filter: drop-shadow(0 0.1rem 0.1rem rgba(0, 0, 0, 0.2));
+  flex-direction: column;
+  width: 100vw;
+  /* height: 180vh; */
+  top: 5vh;
 }
-
-#page-banner-bg1 {
-  display: flex;
-  position: absolute;
-  border-radius: 50%;
-  background-color: var(--sec-color);
-  height: 240px;
-  width: 240px;
-  top: 20.1vh;
-  filter: drop-shadow(0 0.1rem 0.1rem rgba(0, 0, 0, 0.2));
-
-}
-
-#page-banner-bg2 {
-  display: flex;
-  position: absolute;
-  border-radius: 50%;
-  background-color: var(--acc-color);
-  height: 220px;
-  width: 220px;
-  top: 20.86vh;
-}
-
-#profile-picture {
-  display: flex;
-  position: absolute;
-  border-radius: 50%;
-  background-color: var(--acc-color);
-  height: 210px;
-  width: 210px;
-  top: 21.3vh;
-}
-
 
 #home-section {
   display: flex;
+  flex-direction: column;
+  width: 100vw;
   background-color: var(--prim-color);
-  height: 110vh;
-  width: 100vh;
-  top: 21.3vh;
+  /* height: 110vh;
+  width: 100vh; */
 }
 
+
+#banner {
+  /* border: 5px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34.5vh;
+  /* width: 100%; */
+  /* background-color: var(--main-color); */
+  background-color: var(--acc-color);
+  filter: drop-shadow(0 0.1rem 0.1rem rgba(0, 0, 0, 0.2));
+}
+
+#pfp-box {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  bottom: 60px;
+}
+
+
+#page-banner-bg1 {
+
+  border-radius: 50%;
+  background-color: var(--sec-color);
+  height: 100%;
+  width: 100%;
+  filter: drop-shadow(0 0.1rem 0.1rem rgba(0, 0, 0, 0.2));
+} 
+
+#page-banner-bg2 {
+
+  border-radius: 50%;
+  background-color: var(--acc-color);
+  height: 100%;
+  width: 100%;
+}
+
+#profile-picture {
+
+  border-radius: 50%;
+  background-color: var(--acc-color);
+  height: 100%;
+  width: 100%;
+} 
+
 #about-section {
-  
+  display: flex;
+  position: relative;
+  justify-content: center;
+  background-color: #ccdedb;
+  height: 100vh;
+  width: 100%;
+  bottom: 120px;
+  z-index: -1;
 }
 
 #skills-section {
