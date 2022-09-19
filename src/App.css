@@ -1,13 +1,16 @@
-* {
+/* * {
   border: 1px solid black;
-}
+} */
 
 
 :root {
+  padding: 0;
+  margin: 0;
   --main-color: #FFFFFF;
   --prim-color: #FAFFFE;
-  --sec-color: #5BA0A9;
+  --sec-color: #74bdc7;
   --acc-color: #FC8BAB;
+  scroll-behavior: smooth;
 }
 
 .App {
@@ -18,19 +21,34 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 100vh;
+  height: 180vh;
 }
 
 #nav-bar {
+  display: flex;
+  position: fixed;
   height: 5vh;
+  width: 100vw;
   background-color: white;
+  z-index: 1;
+  filter: drop-shadow(0 0.1rem 0.1rem rgba(0, 0, 0, 0.2));
+  align-items: center;
+  padding: 0 20px;
 }
+
+#nav-items-left {
+  border: 1px solid black;
+
+}
+
 
 #page-banner {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 23.5vh;
+  height: 29.5vh;
+  background-color: var(--main-color);
+  filter: drop-shadow(0 0.1rem 0.1rem rgba(0, 0, 0, 0.2));
 }
 
 #page-banner-bg1 {
@@ -41,6 +59,8 @@
   height: 240px;
   width: 240px;
   top: 20.1vh;
+  filter: drop-shadow(0 0.1rem 0.1rem rgba(0, 0, 0, 0.2));
+
 }
 
 #page-banner-bg2 {
@@ -61,4 +81,29 @@
   height: 210px;
   width: 210px;
   top: 21.3vh;
+}
+
+
+#home-section {
+  display: flex;
+  background-color: var(--prim-color);
+  height: 110vh;
+  width: 100vh;
+  top: 21.3vh;
+}
+
+#about-section {
+  
+}
+
+#skills-section {
+  
+}
+
+#portfolio-section {
+  
+}
+
+#contact-section {
+  
 }

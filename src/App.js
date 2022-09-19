@@ -4,7 +4,12 @@ function App() {
   return (
     <div className="App">
       <div id="page-wrapper">
-        <nav id="nav-bar">Howdy world :)</nav>
+        <nav id="nav-bar">
+          <div id="nav-items-left">
+            Howdy world :)
+
+            </div>
+          </nav>
 
         <section id="page-banner">
           <div id="page-banner-bg1"></div>
