@@ -7,8 +7,16 @@ function App() {
         <nav id="nav-bar">
           <div id="nav-items-left">
             Howdy world :)
-
             </div>
+
+            <ul id="nav-items-right">
+              <li><a href="#page-wrapper" targe="_blank">Home</a></li>
+              <li ><a href="#about-section">About</a></li>
+              <li ><a href="#skills-section">Skills</a></li>
+              <li ><a href="#portfolio-section">Portfolio</a></li>
+              <li ><a href="#contact-section">Contact</a></li>
+
+            </ul>
           </nav>
 
         <section id="page-banner">

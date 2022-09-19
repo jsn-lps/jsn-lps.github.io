@@ -37,9 +37,32 @@
 }
 
 #nav-items-left {
-  /* border: 1px solid black; */
 }
 
+#nav-items-right {
+  list-style: none;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: auto; 
+  margin-right: 7%;
+}
+
+#nav-items-right li {
+  display: inline;
+  padding: 1vw;
+  text-align: right;
+}
+
+#nav-items-right li:hover {
+  color: var(--acc-color);
+
+}
+
+#nav-items-right li:target {
+  color: var(--sec-color);
+  transform: scale(1.1);
+  text-decoration: none;
+}
 
 #page-banner {
   display: flex;
