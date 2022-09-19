@@ -27,14 +27,33 @@ function App() {
 
           <section id="home-section">
             <div id="banner"></div>
-            <div id="pfp-box">
+
+          </section>
+
+          <div id="pfp-box">
               <div id="page-banner-bg1"></div>
               <div id="page-banner-bg2"></div>
               <img id="profile-picture" src="https://cdn.drawception.com/drawings/fvtBh78Xbg.png" alt="beautiful person who works hard and does well" />
             </div>
-          </section>
 
-          <section id="about-section">howdy</section>
+          <section id="about-section">
+            <div id="pfp-spacer"></div>
+
+            <h1>Howdy</h1>
+            <p>how are you</p>
+
+            <div className='about-grid'>
+            
+            <div id="about-col">
+              </div>      
+            
+            <div id="about-col">
+              </div>
+              
+
+            </div>
+
+            </section>
 
           <section id="skills-section"></section>
 
