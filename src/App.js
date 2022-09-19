@@ -10,6 +10,9 @@ function App() {
             Howdy world :)
             </div>
 
+            {/* scroll snapping */}
+            {/* https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type */}
+
             <ul id="nav-items-right">
               <li><a href="#home-section" targe="_blank">Home</a></li>
               <li ><a href="#about-section">About</a></li>
@@ -25,10 +28,12 @@ function App() {
       <div id="page-wrapper">
 
 
+  {/* HOME SECTION --------------------------------------- */}
           <section id="home-section">
             <div id="banner"></div>
 
           </section>
+  {/* HOME SECTION --------------------------------------- */}
 
           <div id="pfp-box">
               <div id="page-banner-bg1"></div>
@@ -36,6 +41,8 @@ function App() {
               <img id="profile-picture" src="https://cdn.drawception.com/drawings/fvtBh78Xbg.png" alt="beautiful person who works hard and does well" />
             </div>
 
+
+{/* ABOUT SECTION --------------------------------------- */}
           <section id="about-section">
             <div id="pfp-spacer"></div>
 
@@ -49,17 +56,45 @@ function App() {
             
             <div id="about-col">
               </div>
-              
+
 
             </div>
 
             </section>
+{/* ABOUT SECTION --------------------------------------- */}
 
-          <section id="skills-section"></section>
+{/* SKILLS SECTION --------------------------------------- */}
 
-          <section id="portfolio-section"></section>
+          <section className="section-box" id="skills-section">
+            <div id="triangle-cutout"></div>
 
-          <section id="contact-section"></section>
+
+
+
+
+          </section>
+
+
+{/* SKILLS SECTION --------------------------------------- */}
+
+{/* PORTFOLIO SECTION --------------------------------------- */}
+
+          <section className="section-box" id="portfolio-section">
+          <div id="triangle-cutout"></div>
+
+          </section>
+
+{/* PORTFOLIO SECTION --------------------------------------- */}
+
+
+{/* CONTACT SECTION --------------------------------------- */}
+
+          <section id="contact-section">
+
+            
+          </section>
+
+{/* CONTACT SECTION --------------------------------------- */}
 
 
       </div>
