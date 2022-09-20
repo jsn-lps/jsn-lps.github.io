@@ -29,10 +29,12 @@ function App() {
 
 
   {/* HOME SECTION --------------------------------------- */}
+
           <section id="home-section">
             <div id="banner"></div>
 
           </section>
+
   {/* HOME SECTION --------------------------------------- */}
 
           <div id="pfp-box">
@@ -43,22 +45,13 @@ function App() {
 
 
 {/* ABOUT SECTION --------------------------------------- */}
-          <section id="about-section">
+          <section className="section-box" id="about-section">
             <div id="pfp-spacer"></div>
 
             <h1>Howdy</h1>
             <p>how are you</p>
 
-            <div className='about-grid'>
-            
-            <div id="about-col">
-              </div>      
-            
-            <div id="about-col">
-              </div>
 
-
-            </div>
 
             </section>
 {/* ABOUT SECTION --------------------------------------- */}
@@ -66,9 +59,18 @@ function App() {
 {/* SKILLS SECTION --------------------------------------- */}
 
           <section className="section-box" id="skills-section">
-            <div id="triangle-cutout"></div>
+            {/* <div id="triangle-cutout"></div> */}
+
+            <div className='skills-grid'>
+            
+            <div id="skills-col">
+              </div>      
+            
+            <div id="skills-col">
+              </div>
 
 
+            </div>
 
 
 
@@ -80,7 +82,7 @@ function App() {
 {/* PORTFOLIO SECTION --------------------------------------- */}
 
           <section className="section-box" id="portfolio-section">
-          <div id="triangle-cutout"></div>
+          {/* <div id="triangle-cutout"></div> */}
 
           </section>
 
@@ -89,7 +91,7 @@ function App() {
 
 {/* CONTACT SECTION --------------------------------------- */}
 
-          <section id="contact-section">
+          <section className="section-box" id="contact-section">
 
             
           </section>
